@@ -1,0 +1,96 @@
+package modelo;
+
+import java.time.LocalDate;
+import java.util.List;
+
+public class Venta {
+	
+	private String idTicket;
+	private LocalDate fecha;
+	private double totalVenta;
+	private String formaDePago;
+	private Sucursal sucursal;
+	private Cliente cliente;
+	private List<ItemVenta> listaItemVenta;
+	private List<Empleado> listaEmpleados;
+	
+	public Venta(int numeroVenta, LocalDate fecha, double totalVenta, String formaDePago,
+			Sucursal sucursal, Cliente cliente, List<ItemVenta> listaItemVenta, List<Empleado> listaEmpleados) {
+	
+		this.fecha = fecha;
+		this.totalVenta = totalVenta;
+		this.formaDePago = formaDePago;
+		this.sucursal = sucursal;
+		this.cliente = cliente;
+		this.listaItemVenta = listaItemVenta;
+		this.listaEmpleados = listaEmpleados;
+		this.setIdTicket(numeroVenta);
+	}
+
+	public String getIdTicket() {
+		return idTicket;
+	}
+
+	public void setIdTicket(int numeroVenta) {
+		this.idTicket = this.sucursal.getNroSucursal() + "-" + numeroVenta;
+	}
+
+	public LocalDate getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(LocalDate fecha) {
+		this.fecha = fecha;
+	}
+
+	public double getTotalVenta() {
+		return totalVenta;
+	}
+
+	public void setTotalVenta(double totalVenta) {
+		this.totalVenta = totalVenta;
+	}
+
+	public String getFormaDePago() {
+		return formaDePago;
+	}
+
+	public void setFormaDePago(String formaDePago) {
+		this.formaDePago = formaDePago;
+	}
+
+	public Sucursal getSucursal() {
+		return sucursal;
+	}
+
+	public void setSucursal(Sucursal sucursal) {
+		this.sucursal = sucursal;
+	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+	public List<ItemVenta> getListaItemVenta() {
+		return listaItemVenta;
+	}
+
+	public void setListaItemVenta(List<ItemVenta> listaItemVenta) {
+		this.listaItemVenta = listaItemVenta;
+	}
+
+	public List<Empleado> getListaEmpleados() {
+		return listaEmpleados;
+	}
+
+	public void setListaEmpleados(List<Empleado> listaEmpleados) {
+		this.listaEmpleados = listaEmpleados;
+	}
+	
+	
+
+}
