@@ -22,18 +22,6 @@ public class Cliente {
 		this.numeroAfiliado = numeroAfiliado;
 		this.domicilio = domicilio;
 	}
-	
-	public Document toDocumentCliente() {
-		
-		Document documento =  new Document("apellido", this.apellido)
-				.append("nombre", this.nombre)
-				.append("dni", this.dni)
-				.append("numeroAfiliado", this.numeroAfiliado)
-				.append("domicilio", this.domicilio.toDocumentDomicilio());
-		
-		return documento;
-	
-	}
 
 	public String getApellido() {
 		return apellido;

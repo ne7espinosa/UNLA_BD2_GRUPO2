@@ -6,7 +6,7 @@ import java.util.List;
 import org.bson.Document;
 
 import com.mongodb.client.*;
-
+import com.google.gson.Gson;
 import com.mongodb.*;
 
 import modelo.Cliente;
@@ -26,12 +26,12 @@ public class TestPrueba {
 		MongoClient mongoClient = MongoClients.create();
 		
 		MongoDatabase database = mongoClient.getDatabase("test");
-		
-		//database.createCollection("cliente");
-		
 
+		Gson gson = new Gson();
+		
 		MongoCollection<Document> collection = database.getCollection("cliente");
 		
+		//Si no hay collections se agrega
 		if(collection.countDocuments() == 0)
 		{
 		
@@ -39,7 +39,8 @@ public class TestPrueba {
 	
 			for(Cliente cl : clientes)
 			{
-				collection.insertOne(cl.toDocumentCliente());
+				String json = gson.toJson(cl);
+				collection.insertOne(Document.parse(json));
 			}
 			
 			// Muestra la collections en consola

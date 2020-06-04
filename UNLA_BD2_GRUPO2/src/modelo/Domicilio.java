@@ -18,18 +18,6 @@ public class Domicilio {
 		this.localidad = localidad;
 		this.provincia = provincia;
 	}
-	
-	public Document toDocumentDomicilio() {
-		
-		Document documento =  new Document("calle", this.calle)
-				.append("numero", this.numero)
-				.append("localidad", this.localidad)
-				.append("provincia", this.provincia);
-		
-		
-		return documento;
-	
-	}
 
 	public String getCalle() {
 		return calle;
