@@ -1,14 +1,6 @@
 package test;
 
-import org.bson.Document;
-import org.bson.BasicBSONEncoder;
-import org.bson.BSONObject;
-
 import com.google.gson.Gson;
-import com.mongodb.client.MongoClient;
-import com.mongodb.client.MongoClients;
-import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoDatabase;
 
 import modelo.Cliente;
 import modelo.Domicilio;

@@ -1,13 +1,13 @@
 package modelo;
 
-import org.bson.Document;
+
 
 public class Empleado {
 
 	private String apellido;
 	private String nombre;
 	private int dni;
-	private int cuil;
+	private double cuil;
 	private String obraSocial;
 	private int numeroAfiliado;
 	private Domicilio domicilio;
@@ -48,10 +48,10 @@ public class Empleado {
 	public void setDni(int dni) {
 		this.dni = dni;
 	}
-	public int getCuil() {
+	public double getCuil() {
 		return cuil;
 	}
-	public void setCuil(int cuil) {
+	public void setCuil(double cuil) {
 		this.cuil = cuil;
 	}
 	public String getObraSocial() {
