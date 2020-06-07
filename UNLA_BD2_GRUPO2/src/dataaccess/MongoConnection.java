@@ -8,10 +8,9 @@ import org.bson.Document;
 import com.mongodb.client.*;
 import com.mongodb.client.MongoClient;
 
-import modelo.Cliente;
 
-import com.google.gson.Gson;
-import com.mongodb.*;
+
+
 
 
 public class MongoConnection {

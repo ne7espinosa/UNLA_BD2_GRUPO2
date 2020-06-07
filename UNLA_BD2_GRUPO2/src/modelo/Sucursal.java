@@ -11,7 +11,6 @@ public class Sucursal {
 		this.domicilio = domicilio;
 		this.nroSucursal = nroSucursal;
 	}
-
 	public Domicilio getDomicilio() {
 		return domicilio;
 	}

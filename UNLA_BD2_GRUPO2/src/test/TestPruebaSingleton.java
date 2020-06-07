@@ -8,7 +8,7 @@ import org.bson.Document;
 import com.mongodb.client.*;
 import com.mongodb.client.MongoClient;
 import com.google.gson.Gson;
-import com.mongodb.*;
+
 
 import modelo.Cliente;
 import modelo.Domicilio;

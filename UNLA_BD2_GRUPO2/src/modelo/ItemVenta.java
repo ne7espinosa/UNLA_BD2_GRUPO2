@@ -8,10 +8,10 @@ public class ItemVenta {
 	private double precioUnitario;
 	private Producto producto;
 	
-	public ItemVenta(int cantidad, double precioUnitario, Producto producto) {
+	public ItemVenta(int cantidad, Producto producto) {
 		this.cantidad = cantidad;
-		this.precioUnitario = precioUnitario;
 		this.producto = producto;
+		this.setPrecioUnitario();
 	}
 
 	public int getCantidad() {
@@ -26,8 +26,8 @@ public class ItemVenta {
 		return precioUnitario;
 	}
 
-	public void setPrecioUnitario(double precioUnitario) {
-		this.precioUnitario = precioUnitario;
+	public void setPrecioUnitario() {
+		this.precioUnitario = this.producto.getPrecio();
 	}
 
 	public Producto getProducto() {
