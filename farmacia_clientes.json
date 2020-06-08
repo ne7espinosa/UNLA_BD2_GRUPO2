@@ -1,0 +1,130 @@
+{
+        "_id" : ObjectId("5edea7d47cf860100406ca3e"),
+        "apellido" : "Perez",
+        "nombre" : "Juan Carlos",
+        "dni" : 22222222,
+        "numeroAfiliado" : 1111,
+        "domicilio" : {
+                "calle" : "Av. Alsina",
+                "numero" : 123,
+                "localidad" : "Burzaco",
+                "provincia" : "Buenos Aires"
+        }
+}
+{
+        "_id" : ObjectId("5edea7d47cf860100406ca3f"),
+        "apellido" : "Rodriguez",
+        "nombre" : "Mariano",
+        "dni" : 33333333,
+        "numeroAfiliado" : 1111,
+        "domicilio" : {
+                "calle" : "25 de Mayo",
+                "numero" : 1515,
+                "localidad" : "Ministro Rivadavia",
+                "provincia" : "Buenos Aires"
+        }
+}
+{
+        "_id" : ObjectId("5edea7d47cf860100406ca40"),
+        "apellido" : "Gonzalez",
+        "nombre" : "Julieta",
+        "dni" : 44444444,
+        "numeroAfiliado" : 1111,
+        "domicilio" : {
+                "calle" : "Posadas",
+                "numero" : 456,
+                "localidad" : "Longchamps",
+                "provincia" : "Buenos Aires"
+        }
+}
+{
+        "_id" : ObjectId("5edea7d47cf860100406ca41"),
+        "apellido" : "Garcia",
+        "nombre" : "Roman",
+        "dni" : 12345678,
+        "numeroAfiliado" : 1111,
+        "domicilio" : {
+                "calle" : "Alberti",
+                "numero" : 696,
+                "localidad" : "Burzaco",
+                "provincia" : "Buenos Aires"
+        }
+}
+{
+        "_id" : ObjectId("5edea7d47cf860100406ca42"),
+        "apellido" : "Martinez",
+        "nombre" : "jose",
+        "dni" : 55555555,
+        "numeroAfiliado" : 1111,
+        "domicilio" : {
+                "calle" : "Laprida",
+                "numero" : 394,
+                "localidad" : "Lomas de Zamora",
+                "provincia" : "Buenos Aires"
+        }
+}
+{
+        "_id" : ObjectId("5edea7d47cf860100406ca43"),
+        "apellido" : "Lopez",
+        "nombre" : "Josefa",
+        "dni" : 66666666,
+        "numeroAfiliado" : 1111,
+        "domicilio" : {
+                "calle" : "Antartida Argentina",
+                "numero" : 799,
+                "localidad" : "Llavallol",
+                "provincia" : "Buenos Aires"
+        }
+}
+{
+        "_id" : ObjectId("5edea7d47cf860100406ca44"),
+        "apellido" : "Gomez",
+        "nombre" : "Carmen",
+        "dni" : 77777777,
+        "numeroAfiliado" : 1111,
+        "domicilio" : {
+                "calle" : "Leandro N. Alem",
+                "numero" : 299,
+                "localidad" : "Monte Grande",
+                "provincia" : "Buenos Aires"
+        }
+}
+{
+        "_id" : ObjectId("5edea7d47cf860100406ca45"),
+        "apellido" : "Moreno",
+        "nombre" : "Angel",
+        "dni" : 88888888,
+        "numeroAfiliado" : 1111,
+        "domicilio" : {
+                "calle" : "Maipu",
+                "numero" : 351,
+                "localidad" : "Banfield",
+                "provincia" : "Buenos Aires"
+        }
+}
+{
+        "_id" : ObjectId("5edea7d47cf860100406ca46"),
+        "apellido" : "Jimenez",
+        "nombre" : "Dolores",
+        "dni" : 99999999,
+        "numeroAfiliado" : 1111,
+        "domicilio" : {
+                "calle" : "Monteagudo",
+                "numero" : 3083,
+                "localidad" : "Florencio Varela",
+                "provincia" : "Buenos Aires"
+        }
+}
+{
+        "_id" : ObjectId("5edea7d47cf860100406ca47"),
+        "apellido" : "Navarro",
+        "nombre" : "Ana",
+        "dni" : 11112222,
+        "numeroAfiliado" : 1111,
+        "domicilio" : {
+                "calle" : "Rivadavia",
+                "numero" : 170,
+                "localidad" : "Quilmes",
+                "provincia" : "Buenos Aires"
+        }
+}
