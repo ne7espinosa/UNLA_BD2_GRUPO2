@@ -15,11 +15,11 @@ public class Venta {
 	private ArrayList<ItemVenta> listaItemVenta;
 	private ArrayList<Empleado> listaEmpleados;
 	
-	public Venta(int numeroVenta, LocalDate fecha, double totalVenta, String formaDePago,
+	public Venta(int numeroVenta, LocalDate fecha, String formaDePago,
 			Sucursal sucursal, Cliente cliente) {
 	
 		this.fecha = fecha;
-		this.totalVenta = totalVenta;
+		this.totalVenta = 0;
 		this.formaDePago = formaDePago;
 		this.sucursal = sucursal;
 		this.cliente = cliente;
@@ -93,18 +93,11 @@ public class Venta {
 	}
 	
 	public void addItemVenta(ItemVenta item) {
+		this.totalVenta = this.totalVenta + (item.getCantidad() * item.getPrecioUnitario());
 		this.listaItemVenta.add(item);
 	}
 	
 	public void addEmpleado(Empleado emp) {
 		this.listaEmpleados.add(emp);
-	}
-	
-	public void agregarItemVenta (ItemVenta item) {
-		listaItemVenta.add(item);
-	}
-	
-	public void agregarEmpleado (Empleado emp) {
-		listaEmpleados.add(emp);
 	}
 }

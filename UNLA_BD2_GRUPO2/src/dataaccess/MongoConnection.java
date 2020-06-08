@@ -6,7 +6,6 @@ import java.util.List;
 import org.bson.Document;
 
 import com.mongodb.client.*;
-import com.mongodb.client.MongoClient;
 
 
 
@@ -64,6 +63,20 @@ public class MongoConnection {
     	for(String json : jsonList)
     	{
     		mCollection.insertOne(Document.parse(json));
+    	}
+    }
+    
+    public void listAllCollectionsWithDocuments()
+    {
+    	for(String collection : getDB().listCollectionNames())
+    	{
+    		System.out.println(collection);
+    		MongoCollection<Document> col = getDB().getCollection(collection);
+    		List<Document> documents = (List<Document>) col.find().into(new ArrayList<Document>());
+    		for (Document document : documents) {
+				System.out.println(document);
+			}
+    		
     	}
     }
     
