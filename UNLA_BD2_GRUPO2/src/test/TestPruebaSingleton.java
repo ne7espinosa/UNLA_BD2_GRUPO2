@@ -92,21 +92,17 @@ public class TestPruebaSingleton {
 		Producto pro10 = new Producto("Crema cosmetica", 3333, 2.50, "Perfumeria", "BAYER");
 		
 		
-		
-		Producto pro100=new Producto ("Bayaspirina", 100,85.90,"Medicamento","Bago" );
-		Producto pro101=new Producto ("Paco Rabane hombre", 101,5550.25, "Perfumeria","");
-		Producto pro102=new Producto ("Kenzo mujer", 102,8596.32,"Perfumeria","");
 
 		ItemVenta item1 = new ItemVenta(1, pro1);
-		ItemVenta item100= new ItemVenta (2,pro102);
-		ItemVenta item101= new ItemVenta (2,pro100);
+		ItemVenta item100= new ItemVenta (2,pro2);
+		ItemVenta item101= new ItemVenta (2,pro3);
 		ItemVenta item102= new ItemVenta (1,pro1);
-		ItemVenta item103= new ItemVenta (3,pro100);
-		ItemVenta item104= new ItemVenta (1,pro102);
+		ItemVenta item103= new ItemVenta (3,pro3);
+		ItemVenta item104= new ItemVenta (1,pro2);
 		ItemVenta item105= new ItemVenta (3,pro1);
-		ItemVenta item106= new ItemVenta (2,pro100);
+		ItemVenta item106= new ItemVenta (2,pro3);
 		ItemVenta item107= new ItemVenta (1,pro1);
-		ItemVenta item108= new ItemVenta (10,pro100);
+		ItemVenta item108= new ItemVenta (10,pro3);
 
 
 		// se crean 30 ventas por sucursal uno 
@@ -602,7 +598,7 @@ public class TestPruebaSingleton {
 			jsonsSucursal1.add(gson.toJson((venSuc1)));
 			
 		}
-		mc.addDocumentsToCollection("Venta", jsonsSucursal1);
+		mc.addDocumentsToCollection("venta", jsonsSucursal1);
 		
 		ArrayList<String>jsonsSucursal2=new ArrayList<String>();
 		
@@ -612,6 +608,6 @@ public class TestPruebaSingleton {
 			
 		}
 		
-		mc.addDocumentsToCollection("Venta", jsonsSucursal2);
+		mc.addDocumentsToCollection("venta", jsonsSucursal2);
 	}
 }
