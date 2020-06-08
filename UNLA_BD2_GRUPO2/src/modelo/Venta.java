@@ -100,6 +100,11 @@ public class Venta {
 		this.listaEmpleados.add(emp);
 	}
 	
+	public void agregarItemVenta (ItemVenta item) {
+		listaItemVenta.add(item);
+	}
 	
-
+	public void agregarEmpleado (Empleado emp) {
+		listaEmpleados.add(emp);
+	}
 }
