@@ -21,7 +21,7 @@ import modelo.Producto;
 import modelo.Sucursal;
 import modelo.Venta;
 
-public class TestPruebaSingleton {
+public class AgregaYListaDatosDePrueba {
 
 	public static void main(String[] args) {
 

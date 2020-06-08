@@ -1,0 +1,80 @@
+{
+        "_id": ObjectId("5edeac42f6e2184ee043b0e5"),
+        "descripcion": "Ibuprofeno",
+        "codigo": 1010,
+        "precio": 2.5,
+        "tipoProducto": "Medicamento",
+        "laboratorio": "BAYER"
+}
+{
+        "_id": ObjectId("5edeac42f6e2184ee043b0e6"),
+        "descripcion": "Amoxicilina",
+        "codigo": 2020,
+        "precio": 4.5,
+        "tipoProducto": "Medicamento",
+        "laboratorio": "GADOR"
+}
+{
+        "_id": ObjectId("5edeac42f6e2184ee043b0e7"),
+        "descripcion": "Losartan",
+        "codigo": 3030,
+        "precio": 3,
+        "tipoProducto": "Medicamento",
+        "laboratorio": "BAGO"
+}
+{
+        "_id": ObjectId("5edeac42f6e2184ee043b0e8"),
+        "descripcion": "Morfina",
+        "codigo": 4040,
+        "precio": 6.25,
+        "tipoProducto": "Medicamento",
+        "laboratorio": "BAYER"
+}
+{
+        "_id": ObjectId("5edeac42f6e2184ee043b0e9"),
+        "descripcion": "Alplax",
+        "codigo": 5050,
+        "precio": 5,
+        "tipoProducto": "Medicamento",
+        "laboratorio": "GLAXO"
+}
+{
+        "_id": ObjectId("5edeac42f6e2184ee043b0ea"),
+        "descripcion": "Aspirina",
+        "codigo": 6060,
+        "precio": 2,
+        "tipoProducto": "Medicamento",
+        "laboratorio": "BAYER"
+}
+{
+        "_id": ObjectId("5edeac42f6e2184ee043b0eb"),
+        "descripcion": "Paracetamol",
+        "codigo": 7070,
+        "precio": 4.25,
+        "tipoProducto": "Medicamento",
+        "laboratorio": "BAGO"
+}
+{
+        "_id": ObjectId("5edeac42f6e2184ee043b0ec"),
+        "descripcion": "Perfume",
+        "codigo": 1111,
+        "precio": 2.5,
+        "tipoProducto": "Perfumeria",
+        "laboratorio": "SYRCH"
+}
+{
+        "_id": ObjectId("5edeac42f6e2184ee043b0ed"),
+        "descripcion": "Cepillo de dientes",
+        "codigo": 2222,
+        "precio": 2.5,
+        "tipoProducto": "Perfumeria",
+        "laboratorio": "GUM"
+}
+{
+        "_id": ObjectId("5edeac42f6e2184ee043b0ee"),
+        "descripcion": "Crema cosmetica",
+        "codigo": 3333,
+        "precio": 2.5,
+        "tipoProducto": "Perfumeria",
+        "laboratorio": "BAYER"
+}
