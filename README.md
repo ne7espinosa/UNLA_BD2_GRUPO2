@@ -9,8 +9,12 @@ Build id: 20200313-1211
 Version: JavaSE-13, jdk-13.0.2
 
 # MAVEN DEPENDENCIES
+mongodb-driver
+Version: 2.8.6
+
 mongodb-driver-sync
 Version: 2.8.6
 
 com.google.code.gson
 Version: 3.4.2
+
