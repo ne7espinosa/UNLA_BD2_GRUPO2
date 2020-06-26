@@ -1,8 +1,9 @@
 package modelo;
 
+import org.bson.types.ObjectId;
 
 public class Cliente {
-	
+	private String _id;
 	private String apellido;
 	private String nombre;
 	private int dni;
@@ -17,8 +18,17 @@ public class Cliente {
 		this.dni = dni;
 		this.numeroAfiliado = numeroAfiliado;
 		this.domicilio = domicilio;
+		this.setId();
 	}
 
+	
+	public String getId() {
+		return _id;
+	}
+	public void setId() {
+		this._id = new ObjectId().toString();
+	}
+	
 	public String getApellido() {
 		return apellido;
 	}

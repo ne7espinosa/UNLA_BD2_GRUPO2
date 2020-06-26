@@ -4,12 +4,13 @@ package modelo;
 
 public class Sucursal {
 
+	
 	private Domicilio domicilio;
-	private int nroSucursal;
+	private int _id;
 
 	public Sucursal(Domicilio domicilio, int nroSucursal) {
 		this.domicilio = domicilio;
-		this.nroSucursal = nroSucursal;
+		this._id = nroSucursal;
 	}
 	public Domicilio getDomicilio() {
 		return domicilio;
@@ -17,11 +18,11 @@ public class Sucursal {
 	public void setDomicilio(Domicilio domicilio) {
 		this.domicilio = domicilio;
 	}
-	public int getNroSucursal() {
-		return nroSucursal;
+	public int getId() {
+		return _id;
 	}
-	public void setNroSucursal(int nroSucursal) {
-		this.nroSucursal = nroSucursal;
+	public void setId(int nroSucursal) {
+		this._id = nroSucursal;
 	}
 
 }

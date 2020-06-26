@@ -2,12 +2,6 @@ package test;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.List;
-
-import org.bson.Document;
-
-import com.mongodb.client.*;
-import com.mongodb.client.MongoClient;
 
 import dataaccess.MongoConnection;
 
@@ -27,7 +21,7 @@ public class AgregaYListaDatosDePrueba {
 
 		// Se crean diez clientes
 		ArrayList<Cliente> clientes = new ArrayList<Cliente>();
-
+		
 		clientes.add(new Cliente("Perez", "Juan Carlos", 22222222, 1111,
 				new Domicilio("Av. Alsina", 123, "Burzaco", "Buenos Aires")));
 		clientes.add(new Cliente("Rodriguez", "Mariano", 33333333, 1111,
@@ -78,7 +72,7 @@ public class AgregaYListaDatosDePrueba {
 				new Domicilio("Calle 1", 123, "Lanus", "Buenos Aires"), "vendedor", "empleado", suc3));
 
 		// se crean diez productos
-
+		
 		Producto pro1 = new Producto("Ibuprofeno", 1010, 2.50, "Medicamento", "BAYER");
 		Producto pro2 = new Producto("Amoxicilina", 2020, 4.50, "Medicamento", "GADOR");
 		Producto pro3 = new Producto("Losartan", 3030, 3, "Medicamento", "BAGO");
@@ -151,7 +145,7 @@ public class AgregaYListaDatosDePrueba {
 		venSucu107.addItemVenta(item100);
 		venSucu107.addEmpleado(empleados.get(0));
 		venSucu107.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu101);
+		VentaSucursal1.add(venSucu107);
 
 		Venta venSucu108 = new Venta(108, LocalDate.now(), "Efectivo", suc1, clientes.get(0));
 		venSucu108.addItemVenta(item103);
@@ -607,12 +601,6 @@ public class AgregaYListaDatosDePrueba {
 		ven.addItemVenta(new ItemVenta(1, pro6));
 		ven.addEmpleado(empleados.get(6));
 		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(210, LocalDate.now(), "Tarjeta de Credito", suc3, clientes.get(0));
-		ven.addItemVenta(new ItemVenta(2, pro3));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
 		ventasSuc3.add(ven);
 
 		ven = new Venta(211, LocalDate.now(), "Efectivo", suc3, clientes.get(1));

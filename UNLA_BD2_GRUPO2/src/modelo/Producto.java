@@ -1,9 +1,10 @@
 package modelo;
 
-
+import org.bson.types.ObjectId;
 
 public class Producto {
 
+	private String _id;
 	private String descripcion;
 	private int codigo;
 	private double precio;
@@ -16,6 +17,16 @@ public class Producto {
 		this.precio = precio;
 		this.tipoProducto = tipoProducto;
 		this.laboratorio = laboratorio;
+		this.setId();
+	}
+	
+	
+	public String getId() {
+		return this._id;
+	}
+	
+	public void setId() {
+		this._id = new ObjectId().toString();
 	}
 	
 	public String getDescripcion() {

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Venta {
 	
-	private String idTicket;
+	private String _id;
 	private LocalDate fecha;
 	private double totalVenta;
 	private String formaDePago;
@@ -25,15 +25,15 @@ public class Venta {
 		this.cliente = cliente;
 		this.listaItemVenta = new ArrayList<ItemVenta>();
 		this.listaEmpleados = new ArrayList<Empleado>();
-		this.setIdTicket(numeroVenta);
+		this.setId(numeroVenta);
 	}
 
-	public String getIdTicket() {
-		return idTicket;
+	public String getId() {
+		return _id;
 	}
 
-	public void setIdTicket(int numeroVenta) {
-		this.idTicket = this.sucursal.getNroSucursal() + "-" + numeroVenta;
+	public void setId(int numeroVenta) {
+		this._id = this.sucursal.getId() + "-" + numeroVenta;
 	}
 
 	public LocalDate getFecha() {
