@@ -84,17 +84,6 @@ public class AgregaYListaDatosDePrueba {
 		Producto pro9 = new Producto("Cepillo de dientes", 2222, 2.50, "Perfumeria", "GUM");
 		Producto pro10 = new Producto("Crema cosmetica", 3333, 2.50, "Perfumeria", "BAYER");
 
-		ItemVenta item1 = new ItemVenta(1, pro1);
-		ItemVenta item100 = new ItemVenta(2, pro2);
-		ItemVenta item101 = new ItemVenta(2, pro3);
-		ItemVenta item102 = new ItemVenta(1, pro1);
-		ItemVenta item103 = new ItemVenta(3, pro3);
-		ItemVenta item104 = new ItemVenta(1, pro2);
-		ItemVenta item105 = new ItemVenta(3, pro1);
-		ItemVenta item106 = new ItemVenta(2, pro3);
-		ItemVenta item107 = new ItemVenta(1, pro1);
-		ItemVenta item108 = new ItemVenta(10, pro3);
-
 		
 		ArrayList<Venta> ventasSuc3 = new ArrayList<Venta>();
 		Venta ven = new Venta(221, LocalDateTime.now(), "Efectivo", suc1, clientes.get(1));
