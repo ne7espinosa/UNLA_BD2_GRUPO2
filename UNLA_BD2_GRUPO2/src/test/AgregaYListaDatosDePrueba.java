@@ -1,6 +1,6 @@
 package test;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 import dataaccess.MongoConnection;
@@ -95,602 +95,29 @@ public class AgregaYListaDatosDePrueba {
 		ItemVenta item107 = new ItemVenta(1, pro1);
 		ItemVenta item108 = new ItemVenta(10, pro3);
 
-		// se crean 30 ventas por sucursal uno
-
-		ArrayList<Venta> VentaSucursal1 = new ArrayList<Venta>();
-		Venta venSucu101 = new Venta(101, LocalDate.now(), "Efectivo", suc1, clientes.get(2));
-		venSucu101.addItemVenta(item1);
-		venSucu101.addItemVenta(item104);
-		venSucu101.addEmpleado(empleados.get(0));
-		venSucu101.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu101);
-
-		Venta venSucu102 = new Venta(102, LocalDate.now(), "Efectivo", suc1, clientes.get(3));
-		venSucu102.addItemVenta(item103);
-		venSucu102.addItemVenta(item1);
-		venSucu102.addEmpleado(empleados.get(0));
-		venSucu102.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu102);
-
-		Venta venSucu103 = new Venta(103, LocalDate.now(), "Tarjeta de Credito", suc1, clientes.get(1));
-		venSucu103.addItemVenta(item102);
-		venSucu103.addItemVenta(item103);
-		venSucu103.addEmpleado(empleados.get(0));
-		venSucu103.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu103);
-
-		Venta venSucu104 = new Venta(104, LocalDate.now(), "Efectivo", suc1, clientes.get(3));
-		venSucu104.addItemVenta(item108);
-		venSucu104.addItemVenta(item106);
-		venSucu104.addEmpleado(empleados.get(0));
-		venSucu104.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu104);
-
-		Venta venSucu105 = new Venta(105, LocalDate.now(), "Efectivo", suc1, clientes.get(0));
-		venSucu105.addItemVenta(item106);
-		venSucu105.addItemVenta(item107);
-		venSucu105.addEmpleado(empleados.get(0));
-		venSucu105.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu105);
-
-		Venta venSucu106 = new Venta(106, LocalDate.now(), "Tarjeta de Credito", suc1, clientes.get(2));
-		venSucu106.addItemVenta(item105);
-		venSucu106.addItemVenta(item100);
-		venSucu106.addEmpleado(empleados.get(0));
-		venSucu106.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu106);
-
-		Venta venSucu107 = new Venta(107, LocalDate.now(), "Efectivo", suc1, clientes.get(3));
-		venSucu107.addItemVenta(item107);
-		venSucu107.addItemVenta(item100);
-		venSucu107.addEmpleado(empleados.get(0));
-		venSucu107.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu107);
-
-		Venta venSucu108 = new Venta(108, LocalDate.now(), "Efectivo", suc1, clientes.get(0));
-		venSucu108.addItemVenta(item103);
-		venSucu108.addItemVenta(item101);
-		venSucu108.addEmpleado(empleados.get(0));
-		venSucu108.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu108);
-
-		Venta venSucu109 = new Venta(109, LocalDate.now(), "Efectivo", suc1, clientes.get(1));
-		venSucu109.addItemVenta(item1);
-		venSucu109.addItemVenta(item103);
-		venSucu109.addEmpleado(empleados.get(0));
-		venSucu109.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu109);
-
-		Venta venSucu110 = new Venta(110, LocalDate.now(), "Tarjeta de Credito", suc1, clientes.get(8));
-		venSucu110.addItemVenta(item106);
-		venSucu110.addItemVenta(item100);
-		venSucu110.addEmpleado(empleados.get(0));
-		venSucu110.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu110);
-
-		Venta venSucu111 = new Venta(111, LocalDate.now(), "Efectivo", suc1, clientes.get(6));
-		venSucu111.addItemVenta(item102);
-		venSucu111.addItemVenta(item103);
-		venSucu111.addEmpleado(empleados.get(0));
-		venSucu111.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu111);
-
-		Venta venSucu112 = new Venta(112, LocalDate.now(), "Efectivo", suc1, clientes.get(7));
-		venSucu112.addItemVenta(item106);
-		venSucu112.addItemVenta(item101);
-		venSucu112.addEmpleado(empleados.get(0));
-		venSucu112.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu112);
-
-		Venta venSucu113 = new Venta(113, LocalDate.now(), "Tarjeta de Credito", suc1, clientes.get(6));
-		venSucu113.addItemVenta(item105);
-		venSucu113.addItemVenta(item106);
-		venSucu113.addEmpleado(empleados.get(0));
-		venSucu113.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu113);
-
-		Venta venSucu114 = new Venta(114, LocalDate.now(), "Efectivo", suc1, clientes.get(5));
-		venSucu114.addItemVenta(item100);
-		venSucu114.addItemVenta(item106);
-		venSucu114.addEmpleado(empleados.get(0));
-		venSucu114.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu114);
-
-		Venta venSucu115 = new Venta(115, LocalDate.now(), "Efectivo", suc1, clientes.get(4));
-		venSucu115.addItemVenta(item107);
-		venSucu115.addItemVenta(item104);
-		venSucu115.addEmpleado(empleados.get(0));
-		venSucu115.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu115);
-
-		Venta venSucu116 = new Venta(116, LocalDate.now(), "Efectivo", suc1, clientes.get(5));
-		venSucu116.addItemVenta(item100);
-		venSucu116.addItemVenta(item101);
-		venSucu116.addEmpleado(empleados.get(0));
-		venSucu116.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu116);
-
-		Venta venSucu117 = new Venta(117, LocalDate.now(), "Efectivo", suc1, clientes.get(3));
-		venSucu117.addItemVenta(item1);
-		venSucu117.addItemVenta(item105);
-		venSucu117.addEmpleado(empleados.get(0));
-		venSucu117.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu117);
-
-		Venta venSucu118 = new Venta(118, LocalDate.now(), "Efectivo", suc1, clientes.get(6));
-		venSucu117.addItemVenta(item106);
-		venSucu117.addItemVenta(item102);
-
-		venSucu117.addEmpleado(empleados.get(0));
-		venSucu117.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu118);
-
-		Venta venSucu119 = new Venta(119, LocalDate.now(), "Efectivo", suc1, clientes.get(2));
-		venSucu119.addItemVenta(item1);
-		venSucu119.addItemVenta(item100);
-		venSucu119.addEmpleado(empleados.get(0));
-		venSucu119.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu119);
-
-		Venta venSucu120 = new Venta(120, LocalDate.now(), "Tarjeta de Credito", suc1, clientes.get(1));
-		venSucu120.addItemVenta(item1);
-		venSucu120.addItemVenta(item103);
-		venSucu120.addEmpleado(empleados.get(0));
-		venSucu120.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu120);
-
-		Venta venSucu121 = new Venta(121, LocalDate.now(), "Efectivo", suc1, clientes.get(8));
-		venSucu121.addItemVenta(item1);
-		venSucu121.addItemVenta(item108);
-		venSucu121.addEmpleado(empleados.get(0));
-		venSucu121.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu121);
-
-		Venta venSucu122 = new Venta(122, LocalDate.now(), "Efectivo", suc1, clientes.get(6));
-		venSucu122.addItemVenta(item100);
-		venSucu122.addItemVenta(item103);
-		venSucu122.addEmpleado(empleados.get(0));
-		venSucu122.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu122);
-
-		Venta venSucu123 = new Venta(123, LocalDate.now(), "Efectivo", suc1, clientes.get(7));
-		venSucu123.addItemVenta(item105);
-		venSucu123.addItemVenta(item100);
-		venSucu123.addEmpleado(empleados.get(0));
-		venSucu123.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu123);
-
-		Venta venSucu124 = new Venta(124, LocalDate.now(), "Efectivo", suc1, clientes.get(4));
-		venSucu124.addItemVenta(item103);
-		venSucu124.addItemVenta(item108);
-		venSucu124.addEmpleado(empleados.get(0));
-		venSucu124.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu124);
-
-		Venta venSucu125 = new Venta(125, LocalDate.now(), "Efectivo", suc1, clientes.get(0));
-		venSucu125.addItemVenta(item106);
-		venSucu125.addItemVenta(item101);
-		venSucu125.addEmpleado(empleados.get(0));
-		venSucu125.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu125);
-
-		Venta venSucu126 = new Venta(126, LocalDate.now(), "Efectivo", suc1, clientes.get(4));
-		venSucu126.addItemVenta(item106);
-		venSucu126.addItemVenta(item107);
-		venSucu126.addEmpleado(empleados.get(0));
-		venSucu126.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu126);
-
-		Venta venSucu127 = new Venta(127, LocalDate.now(), "Tarjeta de Credito", suc1, clientes.get(8));
-		venSucu127.addItemVenta(item1);
-		venSucu127.addItemVenta(item100);
-		venSucu127.addEmpleado(empleados.get(0));
-		venSucu127.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu127);
-
-		Venta venSucu128 = new Venta(128, LocalDate.now(), "Efectivo", suc1, clientes.get(1));
-		venSucu128.addItemVenta(item100);
-		venSucu128.addItemVenta(item104);
-		venSucu128.addEmpleado(empleados.get(0));
-		venSucu128.addEmpleado(empleados.get(2));
-		VentaSucursal1.add(venSucu128);
-
-		Venta venSucu129 = new Venta(129, LocalDate.now(), "Efectivo", suc1, clientes.get(2));
-		venSucu129.addItemVenta(item101);
-		venSucu129.addItemVenta(item103);
-		venSucu129.addEmpleado(empleados.get(0));
-		venSucu129.addEmpleado(empleados.get(1));
-		VentaSucursal1.add(venSucu129);
-
-		// se crean 30 ventas por sucursal dos
-
-		ArrayList<Venta> ventasSuc2 = new ArrayList<Venta>();
-		Venta ven = new Venta(1, LocalDate.now(), "Efectivo", suc2, clientes.get(0));
-		ven.addItemVenta(new ItemVenta(1, pro1));
-		ven.addItemVenta(new ItemVenta(2, pro3));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(2, LocalDate.now(), "Efectivo", suc2, clientes.get(1));
-		ven.addItemVenta(new ItemVenta(2, pro2));
-		ven.addItemVenta(new ItemVenta(1, pro4));
-		ven.addItemVenta(new ItemVenta(2, pro7));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(3, LocalDate.now(), "Efectivo", suc2, clientes.get(2));
-		ven.addItemVenta(new ItemVenta(2, pro7));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(4, LocalDate.now(), "Tarjeta de Credito", suc2, clientes.get(3));
-		ven.addItemVenta(new ItemVenta(3, pro6));
-		ven.addItemVenta(new ItemVenta(2, pro8));
-		ven.addItemVenta(new ItemVenta(1, pro9));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(5, LocalDate.now(), "Tarjeta de Credito", suc2, clientes.get(4));
-		ven.addItemVenta(new ItemVenta(3, pro1));
-		ven.addItemVenta(new ItemVenta(2, pro9));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(6, LocalDate.now(), "Tarjeta de Credito", suc2, clientes.get(5));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addItemVenta(new ItemVenta(2, pro8));
-		ven.addItemVenta(new ItemVenta(2, pro10));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(7, LocalDate.now(), "Tarjeta de Debito", suc2, clientes.get(6));
-		ven.addItemVenta(new ItemVenta(3, pro3));
-		ven.addItemVenta(new ItemVenta(1, pro5));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(8, LocalDate.now(), "Tarjeta de Debito", suc2, clientes.get(7));
-		ven.addItemVenta(new ItemVenta(2, pro1));
-		ven.addItemVenta(new ItemVenta(1, pro4));
-		ven.addItemVenta(new ItemVenta(2, pro6));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(9, LocalDate.now(), "Tarjeta de Debito", suc2, clientes.get(8));
-		ven.addItemVenta(new ItemVenta(1, pro7));
-		ven.addItemVenta(new ItemVenta(2, pro9));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(10, LocalDate.now(), "Efectivo", suc2, clientes.get(9));
-		ven.addItemVenta(new ItemVenta(1, pro8));
-		ven.addItemVenta(new ItemVenta(2, pro9));
-		ven.addItemVenta(new ItemVenta(2, pro10));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(11, LocalDate.now(), "Efectivo", suc2, clientes.get(8));
-		ven.addItemVenta(new ItemVenta(2, pro1));
-		ven.addItemVenta(new ItemVenta(2, pro4));
-		ven.addItemVenta(new ItemVenta(2, pro10));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(12, LocalDate.now(), "Tarjeta de Credito", suc2, clientes.get(7));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addItemVenta(new ItemVenta(2, pro3));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(13, LocalDate.now(), "Tarjeta de Credito", suc2, clientes.get(6));
-		ven.addItemVenta(new ItemVenta(2, pro8));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(14, LocalDate.now(), "Tarjeta de Debito", suc2, clientes.get(5));
-		ven.addItemVenta(new ItemVenta(2, pro5));
-		ven.addItemVenta(new ItemVenta(1, pro6));
-		ven.addItemVenta(new ItemVenta(2, pro7));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(15, LocalDate.now(), "Tarjeta de Debito", suc2, clientes.get(4));
-		ven.addItemVenta(new ItemVenta(3, pro1));
-		ven.addItemVenta(new ItemVenta(2, pro10));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(16, LocalDate.now(), "Efectivo", suc2, clientes.get(3));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addItemVenta(new ItemVenta(2, pro7));
-		ven.addItemVenta(new ItemVenta(2, pro9));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(17, LocalDate.now(), "Tarjeta de Credito", suc2, clientes.get(2));
-		ven.addItemVenta(new ItemVenta(1, pro3));
-		ven.addItemVenta(new ItemVenta(2, pro8));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(18, LocalDate.now(), "Tarjeta de Debito", suc2, clientes.get(1));
-		ven.addItemVenta(new ItemVenta(3, pro4));
-		ven.addItemVenta(new ItemVenta(2, pro7));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(19, LocalDate.now(), "Efectivo", suc2, clientes.get(0));
-		ven.addItemVenta(new ItemVenta(1, pro5));
-		ven.addItemVenta(new ItemVenta(3, pro6));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(20, LocalDate.now(), "Tarjeta de Credito", suc2, clientes.get(2));
-		ven.addItemVenta(new ItemVenta(1, pro1));
-		ven.addItemVenta(new ItemVenta(3, pro5));
-		ven.addItemVenta(new ItemVenta(2, pro6));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(21, LocalDate.now(), "Tarjeta de Debito", suc2, clientes.get(4));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(22, LocalDate.now(), "Efectivo", suc2, clientes.get(6));
-		ven.addItemVenta(new ItemVenta(3, pro3));
-		ven.addItemVenta(new ItemVenta(1, pro5));
-		ven.addItemVenta(new ItemVenta(2, pro10));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(23, LocalDate.now(), "Tarjeta de Credito", suc2, clientes.get(8));
-		ven.addItemVenta(new ItemVenta(1, pro5));
-		ven.addItemVenta(new ItemVenta(2, pro9));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(24, LocalDate.now(), "Tarjeta de Debito", suc2, clientes.get(1));
-		ven.addItemVenta(new ItemVenta(2, pro10));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(25, LocalDate.now(), "Efectivo", suc2, clientes.get(3));
-		ven.addItemVenta(new ItemVenta(2, pro4));
-		ven.addItemVenta(new ItemVenta(1, pro7));
-		ven.addItemVenta(new ItemVenta(2, pro10));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(26, LocalDate.now(), "Tarjeta de Credito", suc2, clientes.get(5));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addItemVenta(new ItemVenta(2, pro6));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(27, LocalDate.now(), "Tarjeta de Debito", suc2, clientes.get(7));
-		ven.addItemVenta(new ItemVenta(1, pro4));
-		ven.addItemVenta(new ItemVenta(2, pro8));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(28, LocalDate.now(), "Efectivo", suc2, clientes.get(9));
-		ven.addItemVenta(new ItemVenta(1, pro1));
-		ven.addItemVenta(new ItemVenta(1, pro4));
-		ven.addItemVenta(new ItemVenta(2, pro5));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(29, LocalDate.now(), "Tarjeta de Credito", suc2, clientes.get(3));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addItemVenta(new ItemVenta(1, pro4));
-		ven.addItemVenta(new ItemVenta(2, pro5));
-		ven.addItemVenta(new ItemVenta(2, pro6));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(5));
-		ventasSuc2.add(ven);
-
-		ven = new Venta(30, LocalDate.now(), "Tarjeta de Debito", suc2, clientes.get(0));
-		ven.addItemVenta(new ItemVenta(3, pro4));
-		ven.addItemVenta(new ItemVenta(2, pro7));
-		ven.addEmpleado(empleados.get(3));
-		ven.addEmpleado(empleados.get(4));
-		ventasSuc2.add(ven);
-
-		// Se agregan ventas a la sucursal 3
-
+		
 		ArrayList<Venta> ventasSuc3 = new ArrayList<Venta>();
-		ven = new Venta(200, LocalDate.now(), "Efectivo", suc3, clientes.get(0));
-		ven.addItemVenta(new ItemVenta(2, pro3));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(201, LocalDate.now(), "Efectivo", suc3, clientes.get(1));
+		Venta ven = new Venta(221, LocalDateTime.now(), "Efectivo", suc1, clientes.get(1));
 		ven.addItemVenta(new ItemVenta(2, pro4));
 		ven.addEmpleado(empleados.get(6));
 		ven.addEmpleado(empleados.get(7));
 		ventasSuc3.add(ven);
 
-		ven = new Venta(202, LocalDate.now(), "Efectivo", suc3, clientes.get(2));
+		ven = new Venta(222, LocalDateTime.now(), "Efectivo", suc2, clientes.get(2));
 		ven.addItemVenta(new ItemVenta(3, pro5));
 		ven.addItemVenta(new ItemVenta(2, pro6));
 		ven.addEmpleado(empleados.get(6));
 		ven.addEmpleado(empleados.get(7));
 		ventasSuc3.add(ven);
 
-		ven = new Venta(203, LocalDate.now(), "Efectivo", suc3, clientes.get(3));
+		ven = new Venta(223, LocalDateTime.now(), "Tarjeta de Debito", suc3, clientes.get(3));
 		ven.addItemVenta(new ItemVenta(1, pro5));
 		ven.addItemVenta(new ItemVenta(2, pro7));
 		ven.addEmpleado(empleados.get(6));
 		ven.addEmpleado(empleados.get(7));
 		ventasSuc3.add(ven);
 
-		ven = new Venta(204, LocalDate.now(), "Tarjeta de Credito", suc3, clientes.get(4));
-		ven.addItemVenta(new ItemVenta(6, pro5));
-		ven.addItemVenta(new ItemVenta(3, pro2));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(205, LocalDate.now(), "Efectivo", suc3, clientes.get(5));
-		ven.addItemVenta(new ItemVenta(3, pro1));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(206, LocalDate.now(), "Efectivo", suc3, clientes.get(6));
-		ven.addItemVenta(new ItemVenta(1, pro7));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(207, LocalDate.now(), "Efectivo", suc3, clientes.get(7));
-		ven.addItemVenta(new ItemVenta(1, pro1));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addItemVenta(new ItemVenta(1, pro3));
-		ven.addItemVenta(new ItemVenta(1, pro4));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(208, LocalDate.now(), "Efectivo", suc3, clientes.get(8));
-		ven.addItemVenta(new ItemVenta(2, pro1));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(209, LocalDate.now(), "Efectivo", suc3, clientes.get(9));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addItemVenta(new ItemVenta(1, pro3));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(210, LocalDate.now(), "Efectivo", suc3, clientes.get(0));
-		ven.addItemVenta(new ItemVenta(1, pro3));
-		ven.addItemVenta(new ItemVenta(1, pro6));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(211, LocalDate.now(), "Efectivo", suc3, clientes.get(1));
-		ven.addItemVenta(new ItemVenta(2, pro4));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(212, LocalDate.now(), "Efectivo", suc3, clientes.get(2));
-		ven.addItemVenta(new ItemVenta(3, pro5));
-		ven.addItemVenta(new ItemVenta(2, pro6));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(213, LocalDate.now(), "Tarjeta de Debito", suc3, clientes.get(3));
-		ven.addItemVenta(new ItemVenta(1, pro5));
-		ven.addItemVenta(new ItemVenta(2, pro7));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(214, LocalDate.now(), "Efectivo", suc3, clientes.get(4));
-		ven.addItemVenta(new ItemVenta(6, pro5));
-		ven.addItemVenta(new ItemVenta(5, pro6));
-		ven.addItemVenta(new ItemVenta(1, pro3));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(215, LocalDate.now(), "Efectivo", suc3, clientes.get(5));
-		ven.addItemVenta(new ItemVenta(4, pro1));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(216, LocalDate.now(), "Efectivo", suc3, clientes.get(6));
-		ven.addItemVenta(new ItemVenta(1, pro7));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(217, LocalDate.now(), "Efectivo", suc3, clientes.get(7));
-		ven.addItemVenta(new ItemVenta(1, pro1));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(218, LocalDate.now(), "Efectivo", suc3, clientes.get(8));
-		ven.addItemVenta(new ItemVenta(2, pro1));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(219, LocalDate.now(), "Efectivo", suc3, clientes.get(9));
-		ven.addItemVenta(new ItemVenta(1, pro2));
-		ven.addItemVenta(new ItemVenta(1, pro3));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(220, LocalDate.now(), "Efectivo", suc3, clientes.get(0));
-		ven.addItemVenta(new ItemVenta(1, pro3));
-		ven.addItemVenta(new ItemVenta(1, pro6));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(8));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(221, LocalDate.now(), "Efectivo", suc3, clientes.get(1));
-		ven.addItemVenta(new ItemVenta(2, pro4));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(222, LocalDate.now(), "Efectivo", suc3, clientes.get(2));
-		ven.addItemVenta(new ItemVenta(3, pro5));
-		ven.addItemVenta(new ItemVenta(2, pro6));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(223, LocalDate.now(), "Tarjeta de Debito", suc3, clientes.get(3));
-		ven.addItemVenta(new ItemVenta(1, pro5));
-		ven.addItemVenta(new ItemVenta(2, pro7));
-		ven.addEmpleado(empleados.get(6));
-		ven.addEmpleado(empleados.get(7));
-		ventasSuc3.add(ven);
-
-		ven = new Venta(224, LocalDate.now(), "Tarjeta de Credito", suc3, clientes.get(4));
+		ven = new Venta(224, LocalDateTime.now(), "Tarjeta de Credito", suc1, clientes.get(4));
 		ven.addItemVenta(new ItemVenta(6, pro5));
 		ven.addItemVenta(new ItemVenta(5, pro7));
 		ven.addItemVenta(new ItemVenta(1, pro3));
@@ -700,39 +127,39 @@ public class AgregaYListaDatosDePrueba {
 		ven.addEmpleado(empleados.get(7));
 		ventasSuc3.add(ven);
 
-		ven = new Venta(225, LocalDate.now(), "Efectivo", suc3, clientes.get(5));
+		ven = new Venta(225, LocalDateTime.now(), "Efectivo", suc2, clientes.get(5));
 		ven.addItemVenta(new ItemVenta(4, pro1));
 		ven.addEmpleado(empleados.get(6));
 		ven.addEmpleado(empleados.get(7));
 		ventasSuc3.add(ven);
 
-		ven = new Venta(226, LocalDate.now(), "Efectivo", suc3, clientes.get(6));
+		ven = new Venta(226, LocalDateTime.now(), "Efectivo", suc3, clientes.get(6));
 		ven.addItemVenta(new ItemVenta(1, pro7));
 		ven.addEmpleado(empleados.get(6));
 		ven.addEmpleado(empleados.get(8));
 		ventasSuc3.add(ven);
 
-		ven = new Venta(227, LocalDate.now(), "Efectivo", suc3, clientes.get(7));
+		ven = new Venta(227, LocalDateTime.now(), "Efectivo", suc1, clientes.get(7));
 		ven.addItemVenta(new ItemVenta(1, pro5));
 		ven.addEmpleado(empleados.get(6));
 		ven.addEmpleado(empleados.get(8));
 		ventasSuc3.add(ven);
 
-		ven = new Venta(228, LocalDate.now(), "Efectivo", suc3, clientes.get(8));
+		ven = new Venta(228, LocalDateTime.now(), "Efectivo", suc2, clientes.get(8));
 		ven.addItemVenta(new ItemVenta(2, pro1));
 		ven.addItemVenta(new ItemVenta(1, pro5));
 		ven.addEmpleado(empleados.get(6));
 		ven.addEmpleado(empleados.get(7));
 		ventasSuc3.add(ven);
 
-		ven = new Venta(229, LocalDate.now(), "Efectivo", suc3, clientes.get(9));
+		ven = new Venta(229, LocalDateTime.now(), "Efectivo", suc3, clientes.get(9));
 		ven.addItemVenta(new ItemVenta(1, pro2));
 		ven.addItemVenta(new ItemVenta(1, pro5));
 		ven.addEmpleado(empleados.get(6));
 		ven.addEmpleado(empleados.get(7));
 		ventasSuc3.add(ven);
 
-		ven = new Venta(230, LocalDate.now(), "Efectivo", suc3, clientes.get(0));
+		ven = new Venta(230, LocalDateTime.now(), "Efectivo", suc1, clientes.get(0));
 		ven.addItemVenta(new ItemVenta(1, pro3));
 		ven.addItemVenta(new ItemVenta(1, pro5));
 		ven.addEmpleado(empleados.get(6));
@@ -785,23 +212,6 @@ public class AgregaYListaDatosDePrueba {
 		mc.addDocumentsToCollection("empleado", jsonsEmpleado);
 
 		// Guardar Ventas en la base
-
-		ArrayList<String> jsonVentaSucursal1 = new ArrayList<String>();
-
-		for (Venta venSuc1 : VentaSucursal1) {
-			jsonVentaSucursal1.add(gson.toJson((venSuc1)));
-
-		}
-		mc.addDocumentsToCollection("venta", jsonVentaSucursal1);
-
-		ArrayList<String> jsonVentaSucursal2 = new ArrayList<String>();
-
-		for (Venta venSuc2 : ventasSuc2) {
-			jsonVentaSucursal2.add(gson.toJson((venSuc2)));
-
-		}
-
-		mc.addDocumentsToCollection("venta", jsonVentaSucursal2);
 
 		ArrayList<String> jsonsVentas = new ArrayList<String>();
 		for (Venta cl : ventasSuc3) {

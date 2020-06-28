@@ -1,13 +1,14 @@
 package modelo;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDateTime;  
 
 public class Venta {
 	
 	private String _id;
-	private LocalDate fecha;
+	private String fecha;
 	private double totalVenta;
 	private String formaDePago;
 	private Sucursal sucursal;
@@ -15,10 +16,10 @@ public class Venta {
 	private ArrayList<ItemVenta> listaItemVenta;
 	private ArrayList<Empleado> listaEmpleados;
 	
-	public Venta(int numeroVenta, LocalDate fecha, String formaDePago,
+	public Venta(int numeroVenta, LocalDateTime fecha, String formaDePago,
 			Sucursal sucursal, Cliente cliente) {
 	
-		this.fecha = fecha;
+		this.setFecha(fecha);
 		this.totalVenta = 0;
 		this.formaDePago = formaDePago;
 		this.sucursal = sucursal;
@@ -36,12 +37,13 @@ public class Venta {
 		this._id = this.sucursal.getId() + "-" + numeroVenta;
 	}
 
-	public LocalDate getFecha() {
+	public String getFecha() {
 		return fecha;
 	}
 
-	public void setFecha(LocalDate fecha) {
-		this.fecha = fecha;
+	public void setFecha(LocalDateTime fecha) {
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+		this.fecha = dtf.format(fecha);
 	}
 
 	public double getTotalVenta() {
