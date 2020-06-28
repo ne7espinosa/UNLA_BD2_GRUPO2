@@ -1,234 +1,236 @@
-{
-    "_id": ObjectId("5edeacaf103dcb38eeef0830"),
-    "apellido": "Rodriguez",
-    "nombre": "Gerardo",
-    "dni": 11111111,
-    "cuil": 11111111,
-    "obraSocial": "Galeno",
-    "numeroAfiliado": 1,
-    "domicilio": {
-        "calle": "Calle 1",
-        "numero": 123,
-        "localidad": "Lanus",
-        "provincia": "Buenos Aires"
+[
+    {
+            "_id" : "5ef8ba61a8907258fccf87b4",
+            "apellido" : "Rodriguez",
+            "nombre" : "Gerardo",
+            "dni" : 11111111,
+            "cuil" : 11111111,
+            "obraSocial" : "Galeno",
+            "numeroAfiliado" : 1,
+            "domicilio" : {
+                    "calle" : "Calle 1",
+                    "numero" : 123,
+                    "localidad" : "Lanus",
+                    "provincia" : "Buenos Aires"
+            },
+            "funcion" : "cajero",
+            "puesto" : "encargado",
+            "sucursal" : {
+                    "domicilio" : {
+                            "calle" : "Av. Siempreviva",
+                            "numero" : 482,
+                            "localidad" : "Springfield",
+                            "provincia" : "Oregon"
+                    },
+                    "_id" : 1
+            }
     },
-    "funcion": "cajero",
-    "puesto": "encargado",
-    "sucursal": {
-        "domicilio": {
-            "calle": "Av. Siempreviva",
-            "numero": 482,
-            "localidad": "Springfield",
-            "provincia": "Oregon"
-        },
-        "nroSucursal": 1
-    }
-}
-{
-    "_id": ObjectId("5edeacaf103dcb38eeef0831"),
-    "apellido": "De La Vega",
-    "nombre": "Diego",
-    "dni": 22222222,
-    "cuil": 22222222,
-    "obraSocial": "OSPF",
-    "numeroAfiliado": 2,
-    "domicilio": {
-        "calle": "Calle 1",
-        "numero": 123,
-        "localidad": "Lanus",
-        "provincia": "Buenos Aires"
+    {
+            "_id" : "5ef8ba61a8907258fccf87b5",
+            "apellido" : "De La Vega",
+            "nombre" : "Diego",
+            "dni" : 22222222,
+            "cuil" : 22222222,
+            "obraSocial" : "OSPF",
+            "numeroAfiliado" : 2,
+            "domicilio" : {
+                    "calle" : "Calle 1",
+                    "numero" : 123,
+                    "localidad" : "Lanus",
+                    "provincia" : "Buenos Aires"
+            },
+            "funcion" : "vendedor",
+            "puesto" : "empleado",
+            "sucursal" : {
+                    "domicilio" : {
+                            "calle" : "Av. Siempreviva",
+                            "numero" : 482,
+                            "localidad" : "Springfield",
+                            "provincia" : "Oregon"
+                    },
+                    "_id" : 1
+            }
     },
-    "funcion": "vendedor",
-    "puesto": "empleado",
-    "sucursal": {
-        "domicilio": {
-            "calle": "Av. Siempreviva",
-            "numero": 482,
-            "localidad": "Springfield",
-            "provincia": "Oregon"
-        },
-        "nroSucursal": 1
-    }
-}
-{
-    "_id": ObjectId("5edeacaf103dcb38eeef0832"),
-    "apellido": "Torres",
-    "nombre": "Alvaro",
-    "dni": 33333333,
-    "cuil": 33333333,
-    "obraSocial": "PAMI",
-    "numeroAfiliado": 3,
-    "domicilio": {
-        "calle": "Calle 1",
-        "numero": 123,
-        "localidad": "Lanus",
-        "provincia": "Buenos Aires"
+    {
+            "_id" : "5ef8ba61a8907258fccf87b6",
+            "apellido" : "Torres",
+            "nombre" : "Alvaro",
+            "dni" : 33333333,
+            "cuil" : 33333333,
+            "obraSocial" : "PAMI",
+            "numeroAfiliado" : 3,
+            "domicilio" : {
+                    "calle" : "Calle 1",
+                    "numero" : 123,
+                    "localidad" : "Lanus",
+                    "provincia" : "Buenos Aires"
+            },
+            "funcion" : "vendedor",
+            "puesto" : "empleado",
+            "sucursal" : {
+                    "domicilio" : {
+                            "calle" : "Av. Siempreviva",
+                            "numero" : 482,
+                            "localidad" : "Springfield",
+                            "provincia" : "Oregon"
+                    },
+                    "_id" : 1
+            }
     },
-    "funcion": "vendedor",
-    "puesto": "empleado",
-    "sucursal": {
-        "domicilio": {
-            "calle": "Av. Siempreviva",
-            "numero": 482,
-            "localidad": "Springfield",
-            "provincia": "Oregon"
-        },
-        "nroSucursal": 1
-    }
-}
-{
-    "_id": ObjectId("5edeacaf103dcb38eeef0833"),
-    "apellido": "Valenzuela",
-    "nombre": "Gabriel",
-    "dni": 44444444,
-    "cuil": 44444444,
-    "obraSocial": "Galeno",
-    "numeroAfiliado": 4,
-    "domicilio": {
-        "calle": "Calle 1",
-        "numero": 123,
-        "localidad": "Lanus",
-        "provincia": "Buenos Aires"
+    {
+            "_id" : "5ef8ba61a8907258fccf87b7",
+            "apellido" : "Valenzuela",
+            "nombre" : "Gabriel",
+            "dni" : 44444444,
+            "cuil" : 44444444,
+            "obraSocial" : "Galeno",
+            "numeroAfiliado" : 4,
+            "domicilio" : {
+                    "calle" : "Calle 1",
+                    "numero" : 123,
+                    "localidad" : "Lanus",
+                    "provincia" : "Buenos Aires"
+            },
+            "funcion" : "cajero",
+            "puesto" : "encargado",
+            "sucursal" : {
+                    "domicilio" : {
+                            "calle" : "Calle Cordoba",
+                            "numero" : 1562,
+                            "localidad" : "CABA",
+                            "provincia" : "Buenos Aires"
+                    },
+                    "_id" : 2
+            }
     },
-    "funcion": "cajero",
-    "puesto": "encargado",
-    "sucursal": {
-        "domicilio": {
-            "calle": "Calle Cordoba",
-            "numero": 1562,
-            "localidad": "CABA",
-            "provincia": "Buenos Aires"
-        },
-        "nroSucursal": 2
-    }
-}
-{
-    "_id": ObjectId("5edeacaf103dcb38eeef0834"),
-    "apellido": "De La Vega",
-    "nombre": "Diego",
-    "dni": 55555555,
-    "cuil": 55555555,
-    "obraSocial": "OSPF",
-    "numeroAfiliado": 5,
-    "domicilio": {
-        "calle": "Calle 1",
-        "numero": 123,
-        "localidad": "Lanus",
-        "provincia": "Buenos Aires"
+    {
+            "_id" : "5ef8ba61a8907258fccf87b8",
+            "apellido" : "De La Vega",
+            "nombre" : "Diego",
+            "dni" : 55555555,
+            "cuil" : 55555555,
+            "obraSocial" : "OSPF",
+            "numeroAfiliado" : 5,
+            "domicilio" : {
+                    "calle" : "Calle 1",
+                    "numero" : 123,
+                    "localidad" : "Lanus",
+                    "provincia" : "Buenos Aires"
+            },
+            "funcion" : "vendedor",
+            "puesto" : "empleado",
+            "sucursal" : {
+                    "domicilio" : {
+                            "calle" : "Calle Cordoba",
+                            "numero" : 1562,
+                            "localidad" : "CABA",
+                            "provincia" : "Buenos Aires"
+                    },
+                    "_id" : 2
+            }
     },
-    "funcion": "vendedor",
-    "puesto": "empleado",
-    "sucursal": {
-        "domicilio": {
-            "calle": "Calle Cordoba",
-            "numero": 1562,
-            "localidad": "CABA",
-            "provincia": "Buenos Aires"
-        },
-        "nroSucursal": 2
-    }
-}
-{
-    "_id": ObjectId("5edeacaf103dcb38eeef0835"),
-    "apellido": "Torres",
-    "nombre": "Alvaro",
-    "dni": 66666666,
-    "cuil": 66666666,
-    "obraSocial": "PAMI",
-    "numeroAfiliado": 6,
-    "domicilio": {
-        "calle": "Calle 1",
-        "numero": 123,
-        "localidad": "Lanus",
-        "provincia": "Buenos Aires"
+    {
+            "_id" : "5ef8ba61a8907258fccf87b9",
+            "apellido" : "Torres",
+            "nombre" : "Alvaro",
+            "dni" : 66666666,
+            "cuil" : 66666666,
+            "obraSocial" : "PAMI",
+            "numeroAfiliado" : 6,
+            "domicilio" : {
+                    "calle" : "Calle 1",
+                    "numero" : 123,
+                    "localidad" : "Lanus",
+                    "provincia" : "Buenos Aires"
+            },
+            "funcion" : "vendedor",
+            "puesto" : "empleado",
+            "sucursal" : {
+                    "domicilio" : {
+                            "calle" : "Calle Cordoba",
+                            "numero" : 1562,
+                            "localidad" : "CABA",
+                            "provincia" : "Buenos Aires"
+                    },
+                    "_id" : 2
+            }
     },
-    "funcion": "vendedor",
-    "puesto": "empleado",
-    "sucursal": {
-        "domicilio": {
-            "calle": "Calle Cordoba",
-            "numero": 1562,
-            "localidad": "CABA",
-            "provincia": "Buenos Aires"
-        },
-        "nroSucursal": 2
-    }
-}
-{
-    "_id": ObjectId("5edeacaf103dcb38eeef0836"),
-    "apellido": "Valenzuela",
-    "nombre": "Gabriel",
-    "dni": 77777777,
-    "cuil": 77777777,
-    "obraSocial": "Galeno",
-    "numeroAfiliado": 7,
-    "domicilio": {
-        "calle": "Calle 1",
-        "numero": 123,
-        "localidad": "Lanus",
-        "provincia": "Buenos Aires"
+    {
+            "_id" : "5ef8ba61a8907258fccf87ba",
+            "apellido" : "Valenzuela",
+            "nombre" : "Gabriel",
+            "dni" : 77777777,
+            "cuil" : 77777777,
+            "obraSocial" : "Galeno",
+            "numeroAfiliado" : 7,
+            "domicilio" : {
+                    "calle" : "Calle 1",
+                    "numero" : 123,
+                    "localidad" : "Lanus",
+                    "provincia" : "Buenos Aires"
+            },
+            "funcion" : "cajero",
+            "puesto" : "encargado",
+            "sucursal" : {
+                    "domicilio" : {
+                            "calle" : "Gral. Villegas",
+                            "numero" : 908,
+                            "localidad" : "Lanus",
+                            "provincia" : "Buenos Aires"
+                    },
+                    "_id" : 3
+            }
     },
-    "funcion": "cajero",
-    "puesto": "encargado",
-    "sucursal": {
-        "domicilio": {
-            "calle": "Gral. Villegas",
-            "numero": 908,
-            "localidad": "Lanus",
-            "provincia": "Buenos Aires"
-        },
-        "nroSucursal": 3
-    }
-}
-{
-    "_id": ObjectId("5edeacaf103dcb38eeef0837"),
-    "apellido": "De La Vega",
-    "nombre": "Diego",
-    "dni": 88888888,
-    "cuil": 88888888,
-    "obraSocial": "OSPF",
-    "numeroAfiliado": 8,
-    "domicilio": {
-        "calle": "Calle 1",
-        "numero": 123,
-        "localidad": "Lanus",
-        "provincia": "Buenos Aires"
+    {
+            "_id" : "5ef8ba61a8907258fccf87bb",
+            "apellido" : "De La Vega",
+            "nombre" : "Diego",
+            "dni" : 88888888,
+            "cuil" : 88888888,
+            "obraSocial" : "OSPF",
+            "numeroAfiliado" : 8,
+            "domicilio" : {
+                    "calle" : "Calle 1",
+                    "numero" : 123,
+                    "localidad" : "Lanus",
+                    "provincia" : "Buenos Aires"
+            },
+            "funcion" : "vendedor",
+            "puesto" : "empleado",
+            "sucursal" : {
+                    "domicilio" : {
+                            "calle" : "Gral. Villegas",
+                            "numero" : 908,
+                            "localidad" : "Lanus",
+                            "provincia" : "Buenos Aires"
+                    },
+                    "_id" : 3
+            }
     },
-    "funcion": "vendedor",
-    "puesto": "empleado",
-    "sucursal": {
-        "domicilio": {
-            "calle": "Gral. Villegas",
-            "numero": 908,
-            "localidad": "Lanus",
-            "provincia": "Buenos Aires"
-        },
-        "nroSucursal": 3
+    {
+            "_id" : "5ef8ba61a8907258fccf87bc",
+            "apellido" : "Torres",
+            "nombre" : "Alvaro",
+            "dni" : 99999999,
+            "cuil" : 99999999,
+            "obraSocial" : "PAMI",
+            "numeroAfiliado" : 9,
+            "domicilio" : {
+                    "calle" : "Calle 1",
+                    "numero" : 123,
+                    "localidad" : "Lanus",
+                    "provincia" : "Buenos Aires"
+            },
+            "funcion" : "vendedor",
+            "puesto" : "empleado",
+            "sucursal" : {
+                    "domicilio" : {
+                            "calle" : "Gral. Villegas",
+                            "numero" : 908,
+                            "localidad" : "Lanus",
+                            "provincia" : "Buenos Aires"
+                    },
+                    "_id" : 3
+            }
     }
-}
-{
-    "_id": ObjectId("5edeacaf103dcb38eeef0838"),
-    "apellido": "Torres",
-    "nombre": "Alvaro",
-    "dni": 99999999,
-    "cuil": 99999999,
-    "obraSocial": "PAMI",
-    "numeroAfiliado": 9,
-    "domicilio": {
-        "calle": "Calle 1",
-        "numero": 123,
-        "localidad": "Lanus",
-        "provincia": "Buenos Aires"
-    },
-    "funcion": "vendedor",
-    "puesto": "empleado",
-    "sucursal": {
-        "domicilio": {
-            "calle": "Gral. Villegas",
-            "numero": 908,
-            "localidad": "Lanus",
-            "provincia": "Buenos Aires"
-        },
-        "nroSucursal": 3
-    }
-}
+]
