@@ -70,8 +70,9 @@ function ventasPorSucursalIntento2(fdesde, fhasta){
                             } 
                         }
                     ]).toArray();
-                    print(itemProducto.length);
-                    print(tojson(itemProducto)); 
+                    if(itemProducto.length > 0){
+                        print(tojson(itemProducto)); 
+                    }
                 }
             });
         
