@@ -22,25 +22,25 @@ public class AgregaYListaDatosDePrueba {
 		// Se crean diez clientes
 		ArrayList<Cliente> clientes = new ArrayList<Cliente>();
 		
-		clientes.add(new Cliente("Perez", "Juan Carlos", 22222222, 1111,
+		clientes.add(new Cliente("Perez", "Juan Carlos", 22222222, "Galeno", 1111,
 				new Domicilio("Av. Alsina", 123, "Burzaco", "Buenos Aires")));
-		clientes.add(new Cliente("Rodriguez", "Mariano", 33333333, 1111,
+		clientes.add(new Cliente("Rodriguez", "Mariano", 33333333, "OSPF", 1111,
 				new Domicilio("25 de Mayo", 1515, "Ministro Rivadavia", "Buenos Aires")));
-		clientes.add(new Cliente("Gonzalez", "Julieta", 44444444, 1111,
+		clientes.add(new Cliente("Gonzalez", "Julieta", 44444444, "PAMI", 1111,
 				new Domicilio("Posadas", 456, "Longchamps", "Buenos Aires")));
-		clientes.add(new Cliente("Garcia", "Roman", 12345678, 1111,
+		clientes.add(new Cliente("Garcia", "Roman", 12345678, "Galeno", 1111,
 				new Domicilio("Alberti", 696, "Burzaco", "Buenos Aires")));
-		clientes.add(new Cliente("Martinez", "jose", 55555555, 1111,
+		clientes.add(new Cliente("Martinez", "jose", 55555555, "OSPF", 1111,
 				new Domicilio("Laprida", 394, "Lomas de Zamora", "Buenos Aires")));
-		clientes.add(new Cliente("Lopez", "Josefa", 66666666, 1111,
+		clientes.add(new Cliente("Lopez", "Josefa", 66666666, "PAMI", 1111,
 				new Domicilio("Antartida Argentina", 799, "Llavallol", "Buenos Aires")));
-		clientes.add(new Cliente("Gomez", "Carmen", 77777777, 1111,
+		clientes.add(new Cliente("Gomez", "Carmen", 77777777, "Galeno", 1111,
 				new Domicilio("Leandro N. Alem", 299, "Monte Grande", "Buenos Aires")));
-		clientes.add(new Cliente("Moreno", "Angel", 88888888, 1111,
+		clientes.add(new Cliente("Moreno", "Angel", 88888888, "OSPF", 1111,
 				new Domicilio("Maipu", 351, "Banfield", "Buenos Aires")));
-		clientes.add(new Cliente("Jimenez", "Dolores", 99999999, 1111,
+		clientes.add(new Cliente("Jimenez", "Dolores", 99999999, "PAMI", 1111,
 				new Domicilio("Monteagudo", 3083, "Florencio Varela", "Buenos Aires")));
-		clientes.add(new Cliente("Navarro", "Ana", 11112222, 1111,
+		clientes.add(new Cliente("Navarro", "Ana", 11112222, "Galeno", 1111,
 				new Domicilio("Rivadavia", 170, "Quilmes", "Buenos Aires")));
 
 		// Se crean tres sucursales

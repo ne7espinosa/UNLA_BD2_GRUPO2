@@ -19,10 +19,10 @@ public class TestPrueba {
 		
 		ArrayList<Cliente> clientes = new ArrayList<Cliente>();
 		
-		clientes.add(new Cliente("Perez", "Pepito", 12345678, 1111, new Domicilio("Calle falsa", 123, "Longchamps", "Buenos Aires" )));
-		clientes.add(new Cliente("Perez1", "Pepito", 12345678, 1111, new Domicilio("Calle falsa", 123, "Longchamps", "Buenos Aires" )));	
-		clientes.add(new Cliente("Perez2", "Pepito", 12345678, 1111, new Domicilio("Calle falsa", 123, "Longchamps", "Buenos Aires" )));
-		clientes.add(new Cliente("Perez3", "Pepito", 12345678, 1111, new Domicilio("Calle falsa", 123, "Longchamps", "Buenos Aires" )));
+		clientes.add(new Cliente("Perez", "Pepito", 12345678, "PAMI", 1111, new Domicilio("Calle falsa", 123, "Longchamps", "Buenos Aires" )));
+		clientes.add(new Cliente("Perez1", "Pepito", 12345678, "PAMI", 1111, new Domicilio("Calle falsa", 123, "Longchamps", "Buenos Aires" )));	
+		clientes.add(new Cliente("Perez2", "Pepito", 12345678, "PAMI", 1111, new Domicilio("Calle falsa", 123, "Longchamps", "Buenos Aires" )));
+		clientes.add(new Cliente("Perez3", "Pepito", 12345678, "PAMI", 1111, new Domicilio("Calle falsa", 123, "Longchamps", "Buenos Aires" )));
 		
 		
 		//Se crean tres sucursales

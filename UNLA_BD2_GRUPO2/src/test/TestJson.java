@@ -12,7 +12,7 @@ public class TestJson {
 
 
 
-        Cliente cliente= new Cliente("Sanches","jorge",11111,33333,new Domicilio("Boedo",235,"buenos aires","cap.Fed"));
+        Cliente cliente= new Cliente("Sanches","jorge",11111,"PAMI", 33333,new Domicilio("Boedo",235,"buenos aires","cap.Fed"));
         Gson gson=new Gson();
         String json=gson.toJson(cliente);
 

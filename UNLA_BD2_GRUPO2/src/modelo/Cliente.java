@@ -8,14 +8,16 @@ public class Cliente {
 	private String nombre;
 	private int dni;
 	private int numeroAfiliado;
+	private String obraSocial;
 	private Domicilio domicilio;
 	
 	public Cliente() {}
 	
-	public Cliente(String apellido, String nombre, int dni, int numeroAfiliado, Domicilio domicilio) {
+	public Cliente(String apellido, String nombre, int dni, String obraSocial, int numeroAfiliado, Domicilio domicilio) {
 		this.apellido = apellido;
 		this.nombre = nombre;
 		this.dni = dni;
+		this.obraSocial = obraSocial;
 		this.numeroAfiliado = numeroAfiliado;
 		this.domicilio = domicilio;
 		this.setId();
@@ -35,6 +37,14 @@ public class Cliente {
 
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
+	}
+	
+	public String getObraSocial() {
+		return obraSocial;
+	}
+
+	public void setObraSocial(String obraSocial) {
+		this.obraSocial = obraSocial;
 	}
 
 	public String getNombre() {
