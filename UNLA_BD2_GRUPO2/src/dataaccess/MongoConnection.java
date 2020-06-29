@@ -32,7 +32,7 @@ public class MongoConnection {
 	// Utility method to get database instance
 	public MongoDatabase getDB()
 	{
-		return getMongoClient().getDatabase("test");
+		return getMongoClient().getDatabase("farmaciaDB");
 	}
 	
 	// Utility method to get user collection
