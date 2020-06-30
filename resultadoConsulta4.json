@@ -1,0 +1,287 @@
+RESULTADO CONSULTA 4: Detalle y totales de ventas de productos, total de la cadena y por sucursal, entre fechas, diferenciados
+entre farmacia y perfumería. 
+
+------------------------------------------------------------------------------------------
+Ventas para la cadena completa:
+------------------------------------------------------------------------------------------
+Productos de Farmacia:
+------------------------------------------------------------------------------------------
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c5e",
+                        "descripcion" : "Amoxicilina",
+                        "codigo" : 2020,
+                        "precio" : 4.5,
+                        "tipoProducto" : "Farmacia",
+                        "laboratorio" : "GADOR"
+                },
+                "cantidad" : 1,
+                "total" : 4.5
+        }
+]
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c5f",
+                        "descripcion" : "Losartan",
+                        "codigo" : 3030,
+                        "precio" : 3,
+                        "tipoProducto" : "Farmacia",
+                        "laboratorio" : "BAGO"
+                },
+                "cantidad" : 2,
+                "total" : 6
+        }
+]
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c60",
+                        "descripcion" : "Morfina",
+                        "codigo" : 4040,
+                        "precio" : 6.25,
+                        "tipoProducto" : "Farmacia",
+                        "laboratorio" : "BAYER"
+                },
+                "cantidad" : 3,
+                "total" : 18.75
+        }
+]
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c61",
+                        "descripcion" : "Alplax",
+                        "codigo" : 5050,
+                        "precio" : 5,
+                        "tipoProducto" : "Farmacia",
+                        "laboratorio" : "GLAXO"
+                },
+                "cantidad" : 14,
+                "total" : 70
+        }
+]
+------------------------------------------------------------------------------------------
+Productos de Perfumeria:
+------------------------------------------------------------------------------------------
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c5d",
+                        "descripcion" : "Cepillo de dientes",
+                        "codigo" : 2222,
+                        "precio" : 2.5,
+                        "tipoProducto" : "Perfumeria",
+                        "laboratorio" : "GUM"
+                },
+                "cantidad" : 6,
+                "total" : 15
+        }
+]
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c62",
+                        "descripcion" : "Perfume",
+                        "codigo" : 1111,
+                        "precio" : 2.5,
+                        "tipoProducto" : "Perfumeria",
+                        "laboratorio" : "SYRCH"
+                },
+                "cantidad" : 3,
+                "total" : 7.5
+        }
+]
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c63",
+                        "descripcion" : "Crema cosmetica",
+                        "codigo" : 3333,
+                        "precio" : 2.5,
+                        "tipoProducto" : "Perfumeria",
+                        "laboratorio" : "BAYER"
+                },
+                "cantidad" : 8,
+                "total" : 20
+        }
+]
+------------------------------------------------------------------------------------------
+Ventas de Sucursal: 1
+------------------------------------------------------------------------------------------
+Productos de Farmacia:
+------------------------------------------------------------------------------------------
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c5f",
+                        "descripcion" : "Losartan",
+                        "codigo" : 3030,
+                        "precio" : 3,
+                        "tipoProducto" : "Farmacia",
+                        "laboratorio" : "BAGO"
+                },
+                "cantidad" : 2,
+                "total" : 6
+        }
+]
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c60",
+                        "descripcion" : "Morfina",
+                        "codigo" : 4040,
+                        "precio" : 6.25,
+                        "tipoProducto" : "Farmacia",
+                        "laboratorio" : "BAYER"
+                },
+                "cantidad" : 3,
+                "total" : 18.75
+        }
+]
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c61",
+                        "descripcion" : "Alplax",
+                        "codigo" : 5050,
+                        "precio" : 5,
+                        "tipoProducto" : "Farmacia",
+                        "laboratorio" : "GLAXO"
+                },
+                "cantidad" : 8,
+                "total" : 40
+        }
+]
+------------------------------------------------------------------------------------------
+Productos de Perfumeria:
+------------------------------------------------------------------------------------------
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c62",
+                        "descripcion" : "Perfume",
+                        "codigo" : 1111,
+                        "precio" : 2.5,
+                        "tipoProducto" : "Perfumeria",
+                        "laboratorio" : "SYRCH"
+                },
+                "cantidad" : 1,
+                "total" : 2.5
+        }
+]
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c63",
+                        "descripcion" : "Crema cosmetica",
+                        "codigo" : 3333,
+                        "precio" : 2.5,
+                        "tipoProducto" : "Perfumeria",
+                        "laboratorio" : "BAYER"
+                },
+                "cantidad" : 5,
+                "total" : 12.5
+        }
+]
+------------------------------------------------------------------------------------------
+Ventas de Sucursal: 2
+------------------------------------------------------------------------------------------
+Productos de Farmacia:
+------------------------------------------------------------------------------------------
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c61",
+                        "descripcion" : "Alplax",
+                        "codigo" : 5050,
+                        "precio" : 5,
+                        "tipoProducto" : "Farmacia",
+                        "laboratorio" : "GLAXO"
+                },
+                "cantidad" : 4,
+                "total" : 20
+        }
+]
+------------------------------------------------------------------------------------------
+Productos de Perfumeria:
+------------------------------------------------------------------------------------------
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c5d",
+                        "descripcion" : "Cepillo de dientes",
+                        "codigo" : 2222,
+                        "precio" : 2.5,
+                        "tipoProducto" : "Perfumeria",
+                        "laboratorio" : "GUM"
+                },
+                "cantidad" : 6,
+                "total" : 15
+        }
+]
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c62",
+                        "descripcion" : "Perfume",
+                        "codigo" : 1111,
+                        "precio" : 2.5,
+                        "tipoProducto" : "Perfumeria",
+                        "laboratorio" : "SYRCH"
+                },
+                "cantidad" : 2,
+                "total" : 5
+        }
+]
+------------------------------------------------------------------------------------------
+Ventas de Sucursal: 3
+------------------------------------------------------------------------------------------
+Productos de Farmacia:
+------------------------------------------------------------------------------------------
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c5e",
+                        "descripcion" : "Amoxicilina",
+                        "codigo" : 2020,
+                        "precio" : 4.5,
+                        "tipoProducto" : "Farmacia",
+                        "laboratorio" : "GADOR"
+                },
+                "cantidad" : 1,
+                "total" : 4.5
+        }
+]
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c61",
+                        "descripcion" : "Alplax",
+                        "codigo" : 5050,
+                        "precio" : 5,
+                        "tipoProducto" : "Farmacia",
+                        "laboratorio" : "GLAXO"
+                },
+                "cantidad" : 2,
+                "total" : 10
+        }
+]
+------------------------------------------------------------------------------------------
+Productos de Perfumeria:
+------------------------------------------------------------------------------------------
+[
+        {
+                "_id" : {
+                        "_id" : "5efb8a576002b31cf2480c63",
+                        "descripcion" : "Crema cosmetica",
+                        "codigo" : 3333,
+                        "precio" : 2.5,
+                        "tipoProducto" : "Perfumeria",
+                        "laboratorio" : "BAYER"
+                },
+                "cantidad" : 3,
+                "total" : 7.5
+        }
+]

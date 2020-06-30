@@ -72,17 +72,17 @@ public class AgregaYListaDatosDePrueba {
 				new Domicilio("Calle 1", 123, "Lanus", "Buenos Aires"), "vendedor", "empleado", suc3));
 
 		// se crean diez productos
-		
-		Producto pro1 = new Producto("Ibuprofeno", 1010, 2.50, "Medicamento", "BAYER");
-		Producto pro2 = new Producto("Amoxicilina", 2020, 4.50, "Medicamento", "GADOR");
-		Producto pro3 = new Producto("Losartan", 3030, 3, "Medicamento", "BAGO");
-		Producto pro4 = new Producto("Morfina", 4040, 6.25, "Medicamento", "BAYER");
-		Producto pro5 = new Producto("Alplax", 5050, 5, "Medicamento", "GLAXO");
-		Producto pro6 = new Producto("Aspirina", 6060, 2, "Medicamento", "BAYER");
-		Producto pro7 = new Producto("Paracetamol", 7070, 4.25, "Medicamento", "BAGO");
-		Producto pro8 = new Producto("Perfume", 1111, 2.50, "Perfumeria", "SYRCH");
-		Producto pro9 = new Producto("Cepillo de dientes", 2222, 2.50, "Perfumeria", "GUM");
-		Producto pro10 = new Producto("Crema cosmetica", 3333, 2.50, "Perfumeria", "BAYER");
+
+		Producto pro1 = new Producto("Cepillo de dientes", 2222, 2.50, "Perfumeria", "GUM");
+		Producto pro2 = new Producto("Amoxicilina", 2020, 4.50, "Farmacia", "GADOR");
+		Producto pro3 = new Producto("Losartan", 3030, 3, "Farmacia", "BAGO");
+		Producto pro4 = new Producto("Morfina", 4040, 6.25, "Farmacia", "BAYER");
+		Producto pro5 = new Producto("Alplax", 5050, 5, "Farmacia", "GLAXO");
+		Producto pro6 = new Producto("Perfume", 1111, 2.50, "Perfumeria", "SYRCH");
+		Producto pro7 = new Producto("Crema cosmetica", 3333, 2.50, "Perfumeria", "BAYER");
+		Producto pro8 = new Producto("Aspirina", 6060, 2, "Farmacia", "BAYER");
+		Producto pro9 = new Producto("Ibuprofeno", 1010, 2.50, "Farmacia", "BAYER");
+		Producto pro10 = new Producto("Paracetamol", 7070, 4.25, "Farmacia", "BAGO");
 
 		
 		ArrayList<Venta> ventasSuc3 = new ArrayList<Venta>();
