@@ -1,132 +1,142 @@
 [
         {
-                "_id" : "5ef8ba61a8907258fccf87aa",
-                "apellido" : "Perez",
-                "nombre" : "Juan Carlos",
-                "dni" : 22222222,
-                "numeroAfiliado" : 1111,
-                "domicilio" : {
-                        "calle" : "Av. Alsina",
-                        "numero" : 123,
-                        "localidad" : "Burzaco",
-                        "provincia" : "Buenos Aires"
+                "_id": "5efb8a576002b31cf2480c4a",
+                "apellido": "Perez",
+                "nombre": "Juan Carlos",
+                "dni": 22222222,
+                "numeroAfiliado": 1111,
+                "obraSocial": "Galeno",
+                "domicilio": {
+                        "calle": "Av. Alsina",
+                        "numero": 123,
+                        "localidad": "Burzaco",
+                        "provincia": "Buenos Aires"
                 }
         },
         {
-                "_id" : "5ef8ba61a8907258fccf87ab",
-                "apellido" : "Rodriguez",
-                "nombre" : "Mariano",
-                "dni" : 33333333,
-                "numeroAfiliado" : 1111,
-                "domicilio" : {
-                        "calle" : "25 de Mayo",
-                        "numero" : 1515,
-                        "localidad" : "Ministro Rivadavia",
-                        "provincia" : "Buenos Aires"
+                "_id": "5efb8a576002b31cf2480c4b",
+                "apellido": "Rodriguez",
+                "nombre": "Mariano",
+                "dni": 33333333,
+                "numeroAfiliado": 1111,
+                "obraSocial": "OSPF",
+                "domicilio": {
+                        "calle": "25 de Mayo",
+                        "numero": 1515,
+                        "localidad": "Ministro Rivadavia",
+                        "provincia": "Buenos Aires"
                 }
         },
         {
-                "_id" : "5ef8ba61a8907258fccf87ac",
-                "apellido" : "Gonzalez",
-                "nombre" : "Julieta",
-                "dni" : 44444444,
-                "numeroAfiliado" : 1111,
-                "domicilio" : {
-                        "calle" : "Posadas",
-                        "numero" : 456,
-                        "localidad" : "Longchamps",
-                        "provincia" : "Buenos Aires"
+                "_id": "5efb8a576002b31cf2480c4c",
+                "apellido": "Gonzalez",
+                "nombre": "Julieta",
+                "dni": 44444444,
+                "numeroAfiliado": 1111,
+                "obraSocial": "PAMI",
+                "domicilio": {
+                        "calle": "Posadas",
+                        "numero": 456,
+                        "localidad": "Longchamps",
+                        "provincia": "Buenos Aires"
                 }
         },
         {
-                "_id" : "5ef8ba61a8907258fccf87ad",
-                "apellido" : "Garcia",
-                "nombre" : "Roman",
-                "dni" : 12345678,
-                "numeroAfiliado" : 1111,
-                "domicilio" : {
-                        "calle" : "Alberti",
-                        "numero" : 696,
-                        "localidad" : "Burzaco",
-                        "provincia" : "Buenos Aires"
+                "_id": "5efb8a576002b31cf2480c4d",
+                "apellido": "Garcia",
+                "nombre": "Roman",
+                "dni": 12345678,
+                "numeroAfiliado": 1111,
+                "obraSocial": "Galeno",
+                "domicilio": {
+                        "calle": "Alberti",
+                        "numero": 696,
+                        "localidad": "Burzaco",
+                        "provincia": "Buenos Aires"
                 }
         },
         {
-                "_id" : "5ef8ba61a8907258fccf87ae",
-                "apellido" : "Martinez",
-                "nombre" : "jose",
-                "dni" : 55555555,
-                "numeroAfiliado" : 1111,
-                "domicilio" : {
-                        "calle" : "Laprida",
-                        "numero" : 394,
-                        "localidad" : "Lomas de Zamora",
-                        "provincia" : "Buenos Aires"
+                "_id": "5efb8a576002b31cf2480c4e",
+                "apellido": "Martinez",
+                "nombre": "jose",
+                "dni": 55555555,
+                "numeroAfiliado": 1111,
+                "obraSocial": "OSPF",
+                "domicilio": {
+                        "calle": "Laprida",
+                        "numero": 394,
+                        "localidad": "Lomas de Zamora",
+                        "provincia": "Buenos Aires"
                 }
         },
         {
-                "_id" : "5ef8ba61a8907258fccf87af",
-                "apellido" : "Lopez",
-                "nombre" : "Josefa",
-                "dni" : 66666666,
-                "numeroAfiliado" : 1111,
-                "domicilio" : {
-                        "calle" : "Antartida Argentina",
-                        "numero" : 799,
-                        "localidad" : "Llavallol",
-                        "provincia" : "Buenos Aires"
+                "_id": "5efb8a576002b31cf2480c4f",
+                "apellido": "Lopez",
+                "nombre": "Josefa",
+                "dni": 66666666,
+                "numeroAfiliado": 1111,
+                "obraSocial": "PAMI",
+                "domicilio": {
+                        "calle": "Antartida Argentina",
+                        "numero": 799,
+                        "localidad": "Llavallol",
+                        "provincia": "Buenos Aires"
                 }
         },
         {
-                "_id" : "5ef8ba61a8907258fccf87b0",
-                "apellido" : "Gomez",
-                "nombre" : "Carmen",
-                "dni" : 77777777,
-                "numeroAfiliado" : 1111,
-                "domicilio" : {
-                        "calle" : "Leandro N. Alem",
-                        "numero" : 299,
-                        "localidad" : "Monte Grande",
-                        "provincia" : "Buenos Aires"
+                "_id": "5efb8a576002b31cf2480c50",
+                "apellido": "Gomez",
+                "nombre": "Carmen",
+                "dni": 77777777,
+                "numeroAfiliado": 1111,
+                "obraSocial": "Galeno",
+                "domicilio": {
+                        "calle": "Leandro N. Alem",
+                        "numero": 299,
+                        "localidad": "Monte Grande",
+                        "provincia": "Buenos Aires"
                 }
         },
         {
-                "_id" : "5ef8ba61a8907258fccf87b1",
-                "apellido" : "Moreno",
-                "nombre" : "Angel",
-                "dni" : 88888888,
-                "numeroAfiliado" : 1111,
-                "domicilio" : {
-                        "calle" : "Maipu",
-                        "numero" : 351,
-                        "localidad" : "Banfield",
-                        "provincia" : "Buenos Aires"
+                "_id": "5efb8a576002b31cf2480c51",
+                "apellido": "Moreno",
+                "nombre": "Angel",
+                "dni": 88888888,
+                "numeroAfiliado": 1111,
+                "obraSocial": "OSPF",
+                "domicilio": {
+                        "calle": "Maipu",
+                        "numero": 351,
+                        "localidad": "Banfield",
+                        "provincia": "Buenos Aires"
                 }
         },
         {
-                "_id" : "5ef8ba61a8907258fccf87b2",
-                "apellido" : "Jimenez",
-                "nombre" : "Dolores",
-                "dni" : 99999999,
-                "numeroAfiliado" : 1111,
-                "domicilio" : {
-                        "calle" : "Monteagudo",
-                        "numero" : 3083,
-                        "localidad" : "Florencio Varela",
-                        "provincia" : "Buenos Aires"
+                "_id": "5efb8a576002b31cf2480c52",
+                "apellido": "Jimenez",
+                "nombre": "Dolores",
+                "dni": 99999999,
+                "numeroAfiliado": 1111,
+                "obraSocial": "PAMI",
+                "domicilio": {
+                        "calle": "Monteagudo",
+                        "numero": 3083,
+                        "localidad": "Florencio Varela",
+                        "provincia": "Buenos Aires"
                 }
         },
         {
-                "_id" : "5ef8ba61a8907258fccf87b3",
-                "apellido" : "Navarro",
-                "nombre" : "Ana",
-                "dni" : 11112222,
-                "numeroAfiliado" : 1111,
-                "domicilio" : {
-                        "calle" : "Rivadavia",
-                        "numero" : 170,
-                        "localidad" : "Quilmes",
-                        "provincia" : "Buenos Aires"
+                "_id": "5efb8a576002b31cf2480c53",
+                "apellido": "Navarro",
+                "nombre": "Ana",
+                "dni": 11112222,
+                "numeroAfiliado": 1111,
+                "obraSocial": "Galeno",
+                "domicilio": {
+                        "calle": "Rivadavia",
+                        "numero": 170,
+                        "localidad": "Quilmes",
+                        "provincia": "Buenos Aires"
                 }
         }
 ]
